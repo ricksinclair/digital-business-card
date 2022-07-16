@@ -1,0 +1,280 @@
+body{
+    margin:0;
+    padding: 0;
+}
+button{
+    font-family: 'Inter', sans-serif;
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
+}
+.business-card{
+    width:317px;
+    /*background: #161619;*/
+    /*display:flex;*/
+    /*flex-direction: column;*/
+    margin:auto;
+    background: #23252C;
+
+}
+
+.canvas {
+    width:550px;
+    height:868px;
+    background: #23252C;
+    align-items: center;
+    position: fixed;
+
+}
+.portrait{
+    margin-top:44px;
+    border-radius: 10px 10px 0px 0px !important;
+    background: #23252C url("../../assets/portrait.jpeg");
+    background-size: cover;
+    width: 317px;
+    height:317px;
+    margin-bottom: 0px;
+
+}
+
+.business-card-body{
+    margin-top:0;
+    background: #1A1B21;
+    padding-top:21px;
+    height:  399px;
+
+}
+
+.business-card-body > h1{
+    background-color: #1A1B21;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 30px;
+    text-align: center;
+    color: #FFFFFF;
+    margin:0px 0px;
+
+}
+
+.buttons{
+
+    background: #1A1B21;
+
+}
+
+
+.business-card-body > h4{
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12.8px;
+    line-height: 15px;
+    text-align: center;
+    margin-top:7px;
+    color: #F3BF99;
+
+
+}
+
+a.url{
+    display: block;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 150%;
+    text-decoration: none;
+    /* identical to box height, or 15px */
+    color: #F5F5F5;
+    text-align: center;
+
+}
+
+
+.business-card-footer{
+    height: 64px;
+    width:317px;
+    border-radius: 0 0 10px 10px;
+    background: #161619;
+
+}
+
+
+.mail{
+    /* Button */
+    margin-top:15px;
+
+
+    box-sizing: border-box;
+
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
+
+    position: absolute;
+    width: 115px;
+    height: 34px;
+    left: 151px;
+    top: 468px;
+
+    /* white */
+
+    background: #FFFFFF;
+    /* gray/300 */
+
+    border: 1px solid #D1D5DB;
+    /* shadow/sm */
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+    margin-bottom:33px;
+
+}
+
+.mail:hover{
+    background: #d5d5d5;
+
+}
+
+.mail>p{
+    /* Text */
+
+
+    width: 36px;
+    height: 16px;
+
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+
+
+    /* gray/700 */
+
+    color: #374151;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+
+}
+
+.linkedin{
+    /* Button */
+
+ margin-top: 15px;
+    /* Auto layout */
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 13px 9px 11px;
+    gap: 8px;
+
+    position: absolute;
+    width: 115px;
+    height: 34px;
+    left: 283px;
+    top: 468px;
+
+    background: #5093E2;
+    /* shadow/sm */
+
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    border-radius: 6px;
+
+
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    /* identical to box height, or 114% */
+
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    margin-bottom:33px;
+}
+
+
+.linkedin:hover{
+    background: #4278b6;
+
+}
+
+h4.subheading{
+    margin: auto;
+    max-width: 247px;
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+    /* or 24px */
+
+
+    color: #F5F5F5;
+}
+
+
+p.copy-text{
+    margin:auto;
+    max-width: 247px;
+    text-align: left;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 150%;
+    /* or 15px */
+
+
+
+    color: #DCDCDC;
+}
+
+
+.button-container {
+    margin-bottom: 33px;
+}
+
+.body-text-container{
+    padding-top: 33px;
+
+}
+
+.link-container > a{
+    margin-bottom:15px;
+    padding-bottom: 15px;
+    position: relative;
+}
+
+.footer-icon{
+
+    margin-right: 24px;
+}
