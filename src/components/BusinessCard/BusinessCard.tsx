@@ -1,21 +1,32 @@
 import "./BusinessCard.css"
 import MailIcon from "./../../assets/Mail.png"
 import LinkedInIcon from "./../../assets/Icon/Font Awesome Free/Brands/L/linkedin.png"
+import BusinessCardProps from "./BusinessCardProps";
+import defaultImgSrc from "../../assets/portrait.jpeg"
 
+export default function BusinessCard(props:BusinessCardProps) {
 
-export default function BusinessCard() {
+    let name = props.name ?? "Ulric Todman";
+    let about = props.about ?? "A full-stack Java developer familiar with both React and Angular,  looking to contribute in a team environment full of positive people."
+    let interests = props.interests ?? "I love technology, movies, video games, music, and documentaries. I would like to find some like-minded folks to build the future with."
+    let profession = props.profession ?? "Full Stack Java Developer"
+    let portraitSrc = props.portraitSrc ?? defaultImgSrc
+    let url = props.url ?? "https://www.ulrictodman.com"
+    let urlViewName = props.urlViewName ?? "UlricTodman.com"
 
     return (
         <div className="canvas">
             <div className="business-card">
-                <div className="portrait">
-                </div>
+                <img src={portraitSrc} className="portrait"  alt={name + ' portrait'}>
+                </img>
+
                 <div className="business-card-body">
-                    <h1>Ulric Todman</h1>
-                    <h4>Full Stack Engineer</h4>
+                    <h1>{name}</h1>
+                    <h4>{profession}</h4>
                     <div className="link-container">
-                        <a href="https://www.ulrictodman.com" className="url" target="_blank">ulrictodman.com</a>
+                        <a href={url} className="url" target="_blank">{urlViewName}</a>
                     </div>
+
                     <div className="button-container">
                         <button className="mail"><img src={MailIcon}/> <p>Mail</p></button>
                         <button className="linkedin"><img src={LinkedInIcon} alt=""/><p>LinkedIn</p></button>
@@ -23,16 +34,12 @@ export default function BusinessCard() {
                     </div>
                     <div className="body-text-container">
 
-                        <h4 className="subheading">Lorem ipsum dolor sit amet</h4>
-                        <p className="copy-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi
-                            asperiores autem, delectus dolorem dolorum ducimus eaque eos esse impedit laudantium,
-                            maiores placeat praesentium quaerat quas quidem recusandae saepe ullam veritatis.</p>
+                        <h4 className="subheading">About</h4>
+                        <p className="copy-text">{about}</p>
 
 
-                        <h4 className="subheading">Lorem ipsum dolor sit amet</h4>
-                        <p className="copy-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus
-                            aliquid deleniti dolores eligendi iure quibusdam repellat voluptas. Aperiam autem blanditiis
-                            magnam officiis quisquam suscipit veritatis voluptatum! Blanditiis illo in quisquam!</p>
+                        <h4 className="subheading">Interests</h4>
+                        <p className="copy-text">{interests}</p>
 
                     </div>
 
