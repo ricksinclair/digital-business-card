@@ -17,7 +17,7 @@ export default function BusinessCard(props: BusinessCardProps) {
     let portraitSrc = props.portraitSrc ?? defaultImgSrc
     let url = props.url ?? "https://www.ulrictodman.com"
     let urlViewName = props.urlViewName ?? "UlricTodman.com"
-    let linkedInUrl = props.linkedInUrl ?? "https://linkedin.com/in/ulric-todman"
+    let linkedInUrl = props.linkedIn ?? "https://linkedin.com/in/ulric-todman"
     let githubUrl = props.github ?? "https://github.com/ricksinclair"
 
     return (
