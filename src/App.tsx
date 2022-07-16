@@ -1,7 +1,11 @@
 import './App.css'
+import {useEffect} from "react";
 import BusinessCard from "./components/BusinessCard/BusinessCard";
 function App() {
 
+  useEffect(()=>{
+      document.title = "Digital Business Card"
+  }, [])
   return (
     <div className="App" id="application">
       <BusinessCard emailPrimary/>
