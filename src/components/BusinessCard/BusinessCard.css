@@ -1,5 +1,5 @@
 
-button{
+button {
     font-family: 'Inter', sans-serif;
     background: none;
     color: inherit;
@@ -9,49 +9,51 @@ button{
     outline: inherit;
     margin-top: 0;
 }
-.business-card{
-    width:317px;
+
+.business-card {
+    width: 317px;
     /*background: #161619;*/
-    display:flex;
+    display: flex;
     flex-direction: column;
-    margin:auto;
+    margin: auto;
     background: #23252C;
 
 }
 
 .canvas {
-    width:550px;
-    min-height:868px;
+    width: 550px;
+    min-height: 868px;
     background: #23252C;
     align-items: center;
-    padding-bottom:40px;
+    padding-bottom: 40px;
     padding-left: 20px;
     padding-right: 20px;
     margin-left: 0;
     margin-right: 0;
 }
-.portrait{
 
-    margin-top:44px;
-    border-radius: 10px 10px 0px 0px !important;
-    background: #23252C ;
+.portrait {
+
+    margin-top: 44px;
+    border-radius: 10px 10px 0 0 !important;
+    background: #23252C;
     background-size: cover;
     width: 317px;
-    height:317px;
+    height: 317px;
     margin-bottom: 0;
     padding-bottom: 0;
 
 }
 
-.business-card-body{
-    margin-top:0;
+.business-card-body {
+    margin-top: 0;
     background: #1A1B21;
-    padding-top:21px;
-    min-height:  399px;
+    padding-top: 21px;
+    min-height: 399px;
 
 }
 
-.business-card-body > h1{
+.business-card-body > h1 {
     background-color: #1A1B21;
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -60,31 +62,31 @@ button{
     line-height: 30px;
     text-align: center;
     color: #FFFFFF;
-    margin:0px 0px;
+    margin: 0 0;
 
 }
 
-.buttons{
+.buttons {
 
     background: #1A1B21;
 
 }
 
 
-.business-card-body > h4{
+.business-card-body > h4 {
     font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
-    font-size: 12.8px;
+    font-size: 13px;
     line-height: 15px;
     text-align: center;
-    margin-top:7px;
+    margin-top: 7px;
     color: #F3BF99;
 
 
 }
 
-a.url{
+a.url {
     display: block;
     font-family: 'Inter', sans-serif;
     font-style: normal;
@@ -97,7 +99,8 @@ a.url{
     text-align: center;
 
 }
-a.url:hover{
+
+a.url:hover {
 
     text-decoration: underline;
 
@@ -105,22 +108,22 @@ a.url:hover{
 }
 
 
-.business-card-footer{
-    display:flex;
+.business-card-footer {
+    display: flex;
     justify-content: center;
     flex-direction: row;
     margin: auto;
     height: 64px;
-    width:317px;
+    width: 317px;
     border-radius: 0 0 10px 10px;
     background: #161619;
 
 }
 
 
-.mail{
+.mail {
     /* Button */
-    margin-top:15px;
+    margin-top: 15px;
 
 
     box-sizing: border-box;
@@ -136,7 +139,7 @@ a.url:hover{
 
     width: 115px;
     height: 34px;
-    margin-left:35px;
+    margin-left: 35px;
 
     /* white */
 
@@ -146,25 +149,25 @@ a.url:hover{
     border: 1px solid #D1D5DB;
     /* shadow/sm */
 
-    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
     border-radius: 6px;
-    margin-bottom:33px;
+    margin-bottom: 33px;
 
 }
 
-.mail:hover{
+.mail:hover {
     background: #d5d5d5;
 
 }
 
-.mail>p{
+.mail > p {
     /* Text */
 
 
     width: 36px;
     height: 16px;
 
-    font-family: 'Inter';
+    font-family: 'Inter', 'sans-serif';
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -185,9 +188,9 @@ a.url:hover{
 
 }
 
-.mail-primary{
+.mail-primary {
     /* Button */
-    margin-top:15px;
+    margin-top: 15px;
 
 
     box-sizing: border-box;
@@ -203,7 +206,7 @@ a.url:hover{
 
     width: 247px;
     height: 34px;
-    margin-left:35px;
+    margin-left: 35px;
 
     /* white */
 
@@ -213,19 +216,20 @@ a.url:hover{
     border: 1px solid #D1D5DB;
     /* shadow/sm */
 
-    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
     border-radius: 6px;
-    margin-bottom:33px;
+    margin-bottom: 33px;
 
 }
-.mail-primary>p{
+
+.mail-primary > p {
     /* Text */
 
 
     width: 36px;
     height: 16px;
 
-    font-family: 'Inter';
+    font-family: 'Inter', serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -246,14 +250,14 @@ a.url:hover{
 
 }
 
-.mail-primary:hover{
+.mail-primary:hover {
 
     background: #d5d5d5;
 
 }
 
 
-.linkedin{
+.linkedin {
     /* Button */
 
     /* Auto layout */
@@ -270,7 +274,7 @@ a.url:hover{
     background: #5093E2;
     /* shadow/sm */
 
-    box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.05);
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
     border-radius: 6px;
 
     font-family: 'Inter', sans-serif;
@@ -293,12 +297,12 @@ a.url:hover{
 }
 
 
-.linkedin:hover{
+.linkedin:hover {
     background: #4278b6;
 
 }
 
-h4.subheading{
+h4.subheading {
     margin: auto;
     max-width: 247px;
     text-align: left;
@@ -314,8 +318,8 @@ h4.subheading{
 }
 
 
-p.copy-text{
-    margin-right:auto;
+p.copy-text {
+    margin-right: auto;
     margin-left: auto;
     max-width: 247px;
     text-align: left;
@@ -324,9 +328,8 @@ p.copy-text{
     font-weight: 400;
     font-size: 10px;
     line-height: 150%;
-    margin-bottom:24px;
+    margin-bottom: 24px;
     /* or 15px */
-
 
 
     color: #DCDCDC;
@@ -334,35 +337,35 @@ p.copy-text{
 
 
 .button-container {
-    margin-top:0;
-    margin-bottom:0;
-    display:flex;
+    margin-top: 0;
+    margin-bottom: 0;
+    display: flex;
     flex-direction: row;
 }
 
-.body-text-container{
+.body-text-container {
     height: auto;
 
 }
 
-.link-container > a{
-    margin-bottom:15px;
+.link-container > a {
+    margin-bottom: 15px;
     padding-bottom: 15px;
     position: relative;
 }
 
-.footer-icon{
+.footer-icon {
     margin-top: 19px;
-    width:25px;
-    height:25px;
+    width: 25px;
+    height: 25px;
     margin-right: 12px;
-    margin-left:12px;
+    margin-left: 12px;
 }
 
 .footer-icon:hover {
-box-shadow: 2px 2px 2px #384c82 ;
-    height:25px;
-    width:25px;
+    box-shadow: 2px 2px 2px #384c82;
+    height: 25px;
+    width: 25px;
     cursor: pointer;
 }
 
