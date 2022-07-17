@@ -10,6 +10,7 @@
     "homepage": "https://ricksinclair.github.io/digital-business-card",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
+
   },
   "dependencies": {
     "react": "^18.2.0",
