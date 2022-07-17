@@ -27,7 +27,7 @@ function App() {
 
     return (
         <div className="App" id="application">
-            <BusinessCard  defaultValues/>
+            <BusinessCard out defaultValues/>
             <BusinessCard
                 {...murrayProps}
 
