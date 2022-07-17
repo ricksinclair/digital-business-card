@@ -16,6 +16,7 @@ export default interface BusinessCardProps{
     about?:string,
     interests?:string
     portraitSrc?:string,
+    defaultValues?:boolean
 
 
 
