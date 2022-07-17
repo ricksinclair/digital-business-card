@@ -6,7 +6,7 @@ import BusinessCardProps from "./components/BusinessCard/BusinessCardProps";
 function App() {
 
     useEffect(() => {
-        document.title = "Digital Business Card"
+        document.title = "UlricTodman.com"
     }, [])
 
 
@@ -27,7 +27,7 @@ function App() {
 
     return (
         <div className="App" id="application">
-            <BusinessCard emailPrimary defaultValues/>
+            <BusinessCard  defaultValues/>
             <BusinessCard
                 {...murrayProps}
 

@@ -4,5 +4,7 @@ export default interface ProfileSectionProps{
     defaultValues?:boolean
     name?:string,
     profession?:string,
-    portraitSrc?:string
+    portraitSrc?:string,
+    email?:string,
+    emailPrimary?:boolean
 }

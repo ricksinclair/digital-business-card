@@ -1,6 +1,8 @@
 import ProfileSectionProps from "./ProfileSectionProps";
 import defaultImgSrc from "../../../assets/portrait.jpeg";
 import "./ProfileSection.css"
+import MailIcon from "../../../assets/Mail.png"
+import LinkedInIcon from "../../../assets/Icon/Font Awesome Free/Brands/L/linkedin.png"
 
 export default function ProfileSection(props:ProfileSectionProps){
 
@@ -9,6 +11,7 @@ export default function ProfileSection(props:ProfileSectionProps){
     let profession = props.profession ?? "Full Stack Java Developer"
     let name = props.name ?? "Ulric Todman";
     let portraitSrc = props.portraitSrc ?? defaultImgSrc
+
 
 
     return(
@@ -23,6 +26,19 @@ export default function ProfileSection(props:ProfileSectionProps){
                 </div> : null
 
             }
+            <div className="button-container">
+
+            {
+                props.emailPrimary ?
+                    <button className="mail-primary"><img src={MailIcon} /> <p>Mail</p></button> : <>
+                        <button className="mail"><img src={MailIcon}/> <p>Mail</p></button>
+                        <button className="linkedin"><img src={LinkedInIcon} alt=""/><p>LinkedIn</p></button>
+                    </>
+
+            }
+
+
+        </div>
         </>
     )
 }

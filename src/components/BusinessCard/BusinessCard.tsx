@@ -26,7 +26,8 @@ export default function BusinessCard(props: BusinessCardProps) {
         defaultValues: props.defaultValues,
         url: props.url,
         urlViewName: props.urlViewName,
-        portraitSrc: props.portraitSrc
+        portraitSrc: props.portraitSrc,
+        emailPrimary:props.emailPrimary
     }
 
 
@@ -41,6 +42,7 @@ export default function BusinessCard(props: BusinessCardProps) {
                     <ProfileSection {...profileSectionProps} />
 
                     <About about={props.about}/>
+
                     <Interests interests={props.interests}/>
 
                     <SocialIcons {...iconsProps}/>
